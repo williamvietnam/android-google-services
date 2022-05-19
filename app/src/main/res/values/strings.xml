@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Life Cycle</string>
+    <string name="demomvvm">DemoMVVM</string>
+    <string name="start">Start</string>
+    <string name="string_continue">Continue</string>
+    <string name="sum">Sum</string>
+    <string name="back">back</string>
+    <string name="tong">tổng</string>
+    <string name="hieu">hiệu</string>
+    <string name="tich">Tích</string>
+    <string name="thuong">Thương</string>
+    <string name="input_x">Input X =</string>
+    <string name="input_y">Input Y =</string>
+</resources>
