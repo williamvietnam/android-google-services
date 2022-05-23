@@ -1,0 +1,33 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.rikkeisoft.navigation_component.views.SplashFragment"
+        android:label="splashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/actionSplashToSignIn"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.rikkeisoft.navigation_component.views.SignInFragment"
+        android:label="signInFragment"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/actionSignInToMain"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.rikkeisoft.navigation_component.views.MainFragment"
+        android:label="mainFragment"
+        tools:layout="@layout/fragment_main" />
+
+</navigation>

@@ -1,4 +1,4 @@
-package com.rikkeisoft.main
+package com.rikkeisoft.navigation_component
 
 import org.junit.Test
 

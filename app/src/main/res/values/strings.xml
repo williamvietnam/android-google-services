@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Main</string>
+    <string name="app_name">navigation_component</string>
+    <string name="content_splash">This is Splash screen</string>
+    <string name="login">Đăng nhập</string>
+    <string name="login_to_continue">Đăng nhập để tiếp tục</string>
+    <string name="account">Tài khoản</string>
+    <string name="password">Mật khẩu</string>
 </resources>
