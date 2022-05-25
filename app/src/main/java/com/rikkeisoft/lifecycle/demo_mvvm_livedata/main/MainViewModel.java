@@ -4,13 +4,13 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 public class MainViewModel extends ViewModel {
-    private MutableLiveData<Integer> inputX = new MutableLiveData<>();
-    private MutableLiveData<Integer> inputY = new MutableLiveData<>();
+    private final MutableLiveData<Integer> inputX = new MutableLiveData<>();
+    private final MutableLiveData<Integer> inputY = new MutableLiveData<>();
 
-    private MutableLiveData<Integer> sum = new MutableLiveData<>();
-    private MutableLiveData<Integer> difference = new MutableLiveData<>();
-    private MutableLiveData<Integer> product = new MutableLiveData<>();
-    private MutableLiveData<Integer> division = new MutableLiveData<>();
+    private final MutableLiveData<Integer> sum = new MutableLiveData<>();
+    private final MutableLiveData<Integer> difference = new MutableLiveData<>();
+    private final MutableLiveData<Integer> product = new MutableLiveData<>();
+    private final MutableLiveData<Integer> division = new MutableLiveData<>();
 
     private MutableLiveData<Integer> result = new MutableLiveData<>();
 

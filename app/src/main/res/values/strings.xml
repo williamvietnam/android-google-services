@@ -11,4 +11,13 @@
     <string name="thuong">Thương</string>
     <string name="input_x">Input X =</string>
     <string name="input_y">Input Y =</string>
+    <string name="form_write_user_info">Điền thông tin cá nhân</string>
+    <string name="submit">Submit</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="user_name">User name</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="data_write">Dữ liệu đã điền</string>
 </resources>

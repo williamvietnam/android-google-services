@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
-            android:name="com.rikkeisoft.lifecycle.container.ContainerActivity"
+            android:name="com.rikkeisoft.lifecycle.demo_mvvm_databinding.DataBindingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
